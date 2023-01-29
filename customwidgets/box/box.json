@@ -1,0 +1,79 @@
+{
+	"id": "com.sample.box",
+	"version": "1.0.0",
+	"name": "Box by Sree",
+	"description": "Sample Custom Widget by Sree - Box",
+	"newInstancePrefix": "Box",
+	"icon": "https://github.com/imsreecharan/SAP-Analytics-Cloud/customwidgets/box/icon.png",
+	"vendor": "Sample",
+	"eula": "",
+	"license": "",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-sample-box",
+			"url": "https://github.com/imsreecharan/SAP-Analytics-Cloud/customwidgets/box/box.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "styling",
+			"tag": "https://github.com/imsreecharan/SAP-Analytics-Cloud/customwidgets/box/box.js",
+			"url": "https://github.com/imsreecharan/SAP-Analytics-Cloud/customwidgets/box/box_styling.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "builder",
+			"tag": "com-sample-box-builder",
+			"url": "https://github.com/imsreecharan/SAP-Analytics-Cloud/customwidgets/box/box_builder.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"color": {
+			"type": "string",
+			"description": "Background color",
+			"default": "red"
+		},
+		"opacity": {
+			"type": "number",
+			"description": "Opacity",
+			"default": 1
+		},
+		"width": {
+			"type": "integer",
+			"default": 100
+		},
+		"height": {
+			"type": "integer",
+			"default": 100
+		}
+	},
+	"methods": {
+		"setColor": {
+			"description": "Sets the background color.",
+			"parameters": [
+				{
+					"name": "newColor",
+					"type": "string",
+					"description": "The new background color"
+				}
+			],
+			"body": "this.color = newColor;"
+		},
+		"getColor": {
+			"returnType": "string",
+			"description": "Returns the background color.",
+			"body": "return this.color;"
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Box."
+		}
+	}
+}
+
+ 
