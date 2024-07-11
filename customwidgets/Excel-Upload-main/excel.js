@@ -220,7 +220,7 @@
         }
 
     }
-    customElements.define("com-fd-djaja-sap-sac-excel", Excel);
+    customElements.define("com-Priyanka-sap-sac-excel", Excel);
 
     // UTILS
     function loadthis(that, changedProperties) {
