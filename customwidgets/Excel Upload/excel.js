@@ -135,7 +135,7 @@
         onCustomWidgetAfterUpdate(changedProperties) {
             var that = this;
 
-            let xlsxjs = "http://localhost/SAC/sacexcel/xlsx.js";
+            let xlsxjs = "https://raw.githubusercontent.com/imsreecharan/SAP-Analytics-Cloud/main/customwidgets/Excel%20Upload/xlsx.js";
             async function LoadLibs() {
                 try {
                     await loadScript(xlsxjs, _shadowRoot);
