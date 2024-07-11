@@ -1,10 +1,10 @@
 {
   "id": "com.fd.djaja.sap.sac.excel",
   "version": "0.0.2",
-  "name": "excel",
-  "description": "Excel",
+  "name": "Excel Upload",
+  "description": "Excel Upload",
   "newInstancePrefix": "Excel",
- "vendor": "Ferry Djaja",
+ "vendor": "Sree Charan",
   "eula": "",
   "license": "",
   "imports": [ "input-controls" ],
