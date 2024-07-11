@@ -13,14 +13,14 @@
     {
       "kind": "main",
       "tag": "com-Priyanka-sap-sac-excel",
-      "url": "https://Priyankasac.github.io/Excel-Upload/excel.js",
+      "url": "https://raw.githubusercontent.com/imsreecharan/SAP-Analytics-Cloud/main/customwidgets/Excel-Upload-main/excel.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "styling",
       "tag": "com-Priyanka-sap-sac-excel-aps",
-      "url": "https://Priyankasac.github.io/Excel-Upload/aps_excel.js",
+      "url": "https://raw.githubusercontent.com/imsreecharan/SAP-Analytics-Cloud/main/customwidgets/Excel-Upload-main/aps_excel.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
