@@ -13,14 +13,14 @@
     {
       "kind": "main",
       "tag": "com-fd-djaja-sap-sac-excel",
-      "url": "http://localhost/SAC/sacexcel/excel.js",
+      "url": "https://raw.githubusercontent.com/imsreecharan/SAP-Analytics-Cloud/main/customwidgets/Excel%20Upload/excel.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "styling",
       "tag": "com-fd-djaja-sap-sac-excel-aps",
-      "url": "http://localhost/SAC/sacexcel/aps_excel.js",
+      "url": "https://raw.githubusercontent.com/imsreecharan/SAP-Analytics-Cloud/main/customwidgets/Excel%20Upload/aps_excel.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
